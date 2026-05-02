@@ -14,6 +14,9 @@ const playfair = Playfair_Display({
 export const metadata = {
   title: "GhostedorNahh — Know Where You Stand",
   description: "Upload chat screenshots and get an honest AI-powered behavioral analysis.",
+  icons: {
+    icon: '/logo.PNG',
+  },
 };
 
 export default function RootLayout({ children }) {

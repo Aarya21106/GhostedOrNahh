@@ -51,9 +51,16 @@ export default function Page() {
   return (
     <div className="min-h-screen text-[#18181b] font-sans">
       {/* Header - Minimalist Aesthetic */}
-      <header className="w-full relative overflow-hidden pt-16 pb-20">
+      <header className="w-full relative overflow-hidden pt-12 pb-20">
         <div className="max-w-4xl mx-auto px-6 relative z-10 flex flex-col items-center justify-center text-center">
-          <div className="max-w-2xl text-center">
+          <div className="max-w-2xl text-center flex flex-col items-center">
+            <div className="mb-4 relative w-24 h-24 md:w-32 md:h-32">
+              <img 
+                src="/logo.PNG" 
+                alt="GhostedorNahh Logo" 
+                className="w-full h-full object-contain drop-shadow-lg"
+              />
+            </div>
             <h1 className="inline-block text-5xl md:text-7xl mb-4 leading-tight font-sans font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-pink-500 drop-shadow-sm pb-2 pr-4">
               GhostedorNahh&nbsp;
             </h1>
